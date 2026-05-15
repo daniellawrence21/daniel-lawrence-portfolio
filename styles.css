@@ -621,6 +621,7 @@ body {
 }
 
 .gallery-item {
+  display: block;
   justify-self: center;
   margin: 0;
   overflow: hidden;
@@ -630,20 +631,23 @@ body {
 
 .gallery-item.is-full {
   width: min(100%, 1240px);
+  aspect-ratio: 16 / 9;
 }
 
 .gallery-item.is-wide {
   width: min(100%, 1120px);
+  aspect-ratio: 16 / 10.5;
 }
 
 .gallery-item.is-standard {
   width: min(100%, 980px);
+  aspect-ratio: 4 / 5;
 }
 
 .gallery-item img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   object-position: center;
   filter: saturate(0.94) contrast(0.98);
@@ -663,6 +667,18 @@ body {
   .gallery-item.is-standard,
   .gallery-item.is-full {
     width: 100%;
+  }
+
+  .gallery-item.is-full {
+    aspect-ratio: 4 / 5;
+  }
+
+  .gallery-item.is-wide {
+    aspect-ratio: 4 / 5;
+  }
+
+  .gallery-item.is-standard {
+    aspect-ratio: 3 / 4;
   }
 }
 
