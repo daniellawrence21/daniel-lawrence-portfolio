@@ -593,6 +593,141 @@ body {
   }
 }
 
+.gallery-hero .inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  max-width: 980px;
+}
+
+.gallery-hero .page-title {
+  max-width: 10ch;
+}
+
+.gallery-hero .lead {
+  max-width: 680px;
+}
+
+.gallery-section {
+  padding-top: clamp(36px, 5vw, 80px);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(12px, 1.6vw, 24px);
+  align-items: stretch;
+}
+
+.gallery-item,
+.gallery-spread {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #d7d0c6;
+}
+
+.gallery-item {
+  grid-column: span 4;
+  height: clamp(320px, 40vw, 620px);
+}
+
+.gallery-item.is-half {
+  grid-column: span 6;
+  height: clamp(360px, 44vw, 680px);
+}
+
+.gallery-item.is-full {
+  grid-column: 1 / -1;
+  height: clamp(420px, 56vw, 820px);
+}
+
+.gallery-item img,
+.gallery-panel img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.94) contrast(0.98);
+}
+
+.gallery-spread {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: clamp(420px, 58vw, 860px);
+}
+
+.gallery-panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.gallery-panel.is-left img {
+  object-position: center 56%;
+}
+
+.gallery-panel.is-right img {
+  object-position: center;
+}
+
+@media (max-width: 980px) {
+  .gallery-item,
+  .gallery-item.is-half,
+  .gallery-item.is-full {
+    grid-column: 1 / -1;
+    height: clamp(300px, 54vw, 560px);
+  }
+
+  .gallery-spread {
+    height: clamp(340px, 56vw, 560px);
+  }
+}
+
+@media (max-width: 760px) {
+  .gallery-hero .inner {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    gap: 14px;
+  }
+
+  .gallery-spread {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .gallery-panel {
+    height: clamp(240px, 62vw, 380px);
+  }
+
+  .gallery-item,
+  .gallery-item.is-half,
+  .gallery-item.is-full {
+    height: clamp(260px, 66vw, 440px);
+  }
+}
+
+/* Gallery hero override: keep the title and lead stacked on its own editorial line. */
+.page-hero.gallery-hero .inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  max-width: 980px;
+}
+
+.page-hero.gallery-hero .page-title {
+  max-width: 10ch;
+}
+
+.page-hero.gallery-hero .lead {
+  max-width: 680px;
+}
+
 /* Requested visual refinements. */
 .hero-image-pair {
   display: grid;

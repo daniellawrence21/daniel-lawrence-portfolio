@@ -251,6 +251,57 @@ function renderWork() {
   });
 }
 
+function galleryItemMarkup(item, index) {
+  if (item.layout === "spread" && Array.isArray(item.images)) {
+    return `
+      <figure class="gallery-spread reveal">
+        ${item.images
+          .map(
+            (image, imageIndex) => `
+              <div class="gallery-panel${imageIndex === 0 ? " is-left" : " is-right"}">
+                <img src="${image.src}" alt="${image.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
+              </div>
+            `
+          )
+          .join("")}
+      </figure>
+    `;
+  }
+
+  const spanClass = item.span === "full" ? "is-full" : item.span === "half" ? "is-half" : "is-standard";
+  return `
+    <figure class="gallery-item ${spanClass} reveal">
+      <img src="${item.src}" alt="${item.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
+    </figure>
+  `;
+}
+
+function renderGallery() {
+  const page = content.gallery;
+  const items = (page.items || []).map(galleryItemMarkup).join("");
+
+  main.innerHTML = `
+    <section class="page-hero gallery-hero">
+      <div class="inner">
+        <div class="reveal">
+          <p class="eyebrow">${page.eyebrow}</p>
+          <h1 class="page-title">${page.title}</h1>
+        </div>
+        <div class="reveal">
+          <p class="lead">${page.lead}</p>
+        </div>
+      </div>
+    </section>
+    <section class="section gallery-section">
+      <div class="inner">
+        <div class="gallery-grid">
+          ${items}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 function renderThirdTone() {
   const page = content.thirdTone;
   main.innerHTML = `
@@ -535,6 +586,7 @@ function route() {
   window.setTimeout(() => {
     if (routeName === "home") renderHome();
     else if (routeName === "work") renderWork();
+    else if (routeName === "gallery") renderGallery();
     else if (routeName === "third-tone") renderThirdTone();
     else if (routeName === "about") renderAbout();
     else if (routeName === "contact") renderContact();
