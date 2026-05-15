@@ -455,6 +455,22 @@ body {
   filter: saturate(0.92) contrast(0.96);
 }
 
+.tone-graphic {
+  display: grid;
+  place-items: center;
+  padding: clamp(18px, 3vw, 42px);
+  background: #232323;
+  min-height: clamp(280px, 34vw, 520px);
+}
+
+.tone-graphic img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .project-card,
 .project-card:nth-child(3n),
 .project-card:nth-child(4n) {

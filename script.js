@@ -272,8 +272,8 @@ function renderThirdTone() {
     </section>
     <section class="section">
       <div class="inner philosophy-grid">
-        <div class="tone-plate reveal" aria-label="Third Tone visual rhythm plate">
-          <span></span><span></span><span></span><span></span>
+        <div class="tone-graphic reveal">
+          <img src="${page.graphic.src}" alt="${page.graphic.alt}">
         </div>
         <div class="copy-block reveal">
           ${paragraphs(page.paragraphs)}
