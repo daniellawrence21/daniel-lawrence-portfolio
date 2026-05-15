@@ -5,10 +5,10 @@
   "contact": {
     "email": "daniel@cdcdesign.co.za",
     "location": "Cape Town, South Africa",
-    "instagram": "https://www.instagram.com/thirdtonedesign/",
-    "linkedin": "https://www.linkedin.com/",
-    "behance": "https://www.behance.net/",
-    "thirdToneInstagram": "https://www.instagram.com/"
+    "instagram": "https://www.instagram.com/daniel.lawrnce/",
+    "linkedin": "https://www.linkedin.com/in/daniel-lawrence-b3b1483b3",
+    "behance": "https://www.behance.net/gallery/244662137/Third-Tone-Brand-Identity-Spatial-Portfolio",
+    "thirdToneInstagram": "https://www.instagram.com/thirdtonedesign/"
   },
   "focusAreas": [
     "Interior design",
@@ -45,8 +45,8 @@
       "Developed through the visual language of Third Tone"
     ],
     "heroText": [
-      "I am a final-year interior design student based in Cape Town, developing a body of work across residential, commercial, wellness, and conceptual interior environments.",
-      "My work explores atmosphere, restraint, material sensitivity, and the emotional quality of space, with a focus on interiors that feel calm, intentional, and human-centred."
+      "I am a Cape Town-based final-year interior design student developing a body of work across residential, commercial, wellness, and conceptual interiors.",
+      "My projects explore atmosphere, restraint, material sensitivity, and visual storytelling, with a particular interest in calm, tactile, human-centred spaces."
     ],
     "heroImages": [
       {
@@ -61,46 +61,46 @@
     "heroCaption": "Third Tone visual language / residential and material studies",
     "introTitle": "A portfolio of spatial thinking, atmosphere, and process.",
     "introLead": "This portfolio brings together academic, conceptual, and self-directed design work developed throughout my interior design studies. Each project is presented as both a finished outcome and a record of process, showing how concept, materiality, technical resolution, and visual communication come together.",
-    "introText": "Third Tone forms the visual language behind the portfolio. It is not positioned as a separate business, but as the personal design identity through which my work is framed: quiet, tactile, restrained, and considered.",
+    "introText": "Third Tone forms the visual language behind the portfolio. It is not positioned as a separate business, but as my personal design identity: the framework through which I think about restraint, tactility, atmosphere, and material clarity.",
     "selectedEyebrow": "Selected Projects",
-    "selectedTitle": "Academic work with visual, spatial, and technical range.",
-    "selectedText": "Large image-led entries introduce each project quickly, then the case study pages open the process: brief, concept, design response, drawings, renders, material direction, and reflection.",
+    "selectedTitle": "Curated work with visual, spatial, and technical range.",
+    "selectedText": "Selected academic and self-directed projects are shown here to demonstrate range across concept, process, technical thinking, and visual outcome. The case studies then open the brief, concept, design response, drawings, renders, material direction, and reflection in more detail.",
     "approachEyebrow": "Approach",
     "approachTitle": "Concept-led, practical, and visually controlled.",
-    "approachLead": "My process moves between research, sketching, modelling, technical drawing, material testing, and editorial presentation. I am interested in interiors that communicate feeling without losing clarity, usability, or construction awareness.",
+    "approachLead": "My process moves between research, spatial testing, modelling, technical drawing, material decisions, and editorial presentation. I aim to build interiors that communicate feeling without losing clarity, usability, or construction awareness.",
     "approachItems": [
       {
         "title": "Atmosphere",
-        "text": "Light, silence, texture, and proportion are used to shape how a space feels before it is described."
+        "text": "Light, proportion, and quiet material shifts shape the mood of a space before decoration enters the conversation."
       },
       {
-        "title": "Planning",
-        "text": "Layouts are developed through use, sequence, threshold, privacy, and movement rather than decoration alone."
+        "title": "Spatial Logic",
+        "text": "Layouts are developed through use, sequence, threshold, privacy, and movement so the plan supports how the space is experienced."
       },
       {
         "title": "Materiality",
-        "text": "Materials are chosen for tactile quality, durability, restraint, and the way they support human experience."
+        "text": "Materials are chosen for tactility, restraint, durability, and the way they support atmosphere over time."
       },
       {
         "title": "Communication",
-        "text": "Renders, drawings, captions, and editorial layouts work together so a reviewer can read the project quickly."
+        "text": "Renders, drawings, captions, and editorial layouts work together so a reviewer can read the project quickly and clearly."
       }
     ],
     "thirdTonePreviewEyebrow": "Third Tone",
     "thirdTonePreviewTitle": "A personal design language.",
-    "thirdTonePreviewText": "Third Tone is the visual and conceptual identity behind my portfolio. It represents a way of working rather than a separate professional title: calm, tactile, restrained, atmospheric, and quietly detailed.",
+    "thirdTonePreviewText": "Third Tone is my personal design identity. It frames the visual language of the portfolio and reflects the values behind my work: restraint, tactility, calmness, atmosphere, and material clarity.",
     "thirdTonePreviewImage": {
       "src": "assets/img/third-tone-identity.jpg",
       "alt": "Third Tone personal design identity graphic"
     },
     "opportunitiesEyebrow": "Open to Opportunities",
     "opportunitiesTitle": "Ready to contribute, learn, and keep developing.",
-    "opportunitiesText": "I am currently open to internship, junior interior design, studio assistant, and freelance visualisation opportunities where I can continue developing under experienced designers while contributing strong presentation, conceptual, and visual communication skills."
+    "opportunitiesText": "I am currently open to internships, junior interior design roles, studio assistant roles, and freelance visualisation opportunities. I am looking to contribute strong concept development, visual communication, rendering, presentation, and growing technical documentation skills while continuing to learn within a professional studio environment."
   },
   "work": {
     "eyebrow": "Selected Work",
     "title": "Project archive",
-    "lead": "A concise archive of academic, conceptual, commercial, wellness, residential, and technical interior design work. Each entry is built to show range at a glance, with deeper case study structure inside.",
+    "lead": "A curated archive of academic and self-directed interior design work chosen to show range across concept, process, technical thinking, and visual outcome. Each entry is presented to be scanned quickly, with deeper case study structure inside.",
     "filters": [
       "All",
       "Visualisation",
@@ -113,13 +113,13 @@
   "thirdTone": {
     "eyebrow": "Third Tone",
     "title": "A personal design language.",
-    "lead": "Third Tone is the visual and conceptual identity behind my portfolio. It represents a way of working rather than a separate professional title. It is a framework for the kind of interiors I am drawn to: calm, tactile, restrained, atmospheric, and quietly detailed.",
+    "lead": "Third Tone is my personal design identity. It frames the visual language of this portfolio and reflects the values behind my work: restraint, tactility, calmness, atmosphere, and material clarity.",
     "image": {
       "src": "assets/img/third-tone-identity.jpg",
       "alt": "Third Tone personal design identity artwork"
     },
     "paragraphs": [
-      "The name reflects a space between contrast and resolution. It suggests a third condition: not purely minimal, not decorative, but balanced, layered, and emotionally considered.",
+      "The name reflects a space between contrast and resolution. It suggests a third condition: not purely minimal, not decorative, but balanced, layered, and quietly resolved.",
       "Through Third Tone, I explore interiors that feel composed rather than overdesigned. The language is rooted in muted palettes, natural tactility, editorial restraint, and a sensitivity to how people experience space over time."
     ],
     "principles": [
@@ -135,37 +135,37 @@
     ],
     "approachItems": [
       {
-        "eyebrow": "Design Philosophy",
-        "title": "Calm, intentional, human-centred.",
-        "text": "Create interiors that prioritise atmosphere, proportion, materiality, light, and restraint."
+        "eyebrow": "Personal Design Identity",
+        "title": "Third Tone as a working method.",
+        "text": "Third Tone is not a company or separate studio. It is the framework through which I organise visual language, material choices, and presentation."
       },
       {
-        "eyebrow": "Visual Identity",
-        "title": "Editorial support, not dominance.",
-        "text": "Muted tones, structured grids, large imagery, and minimal typography support the work rather than overpower it."
+        "eyebrow": "Design Values",
+        "title": "Restraint, tactility, and calm.",
+        "text": "The work is guided by proportion, atmosphere, material clarity, and human experience rather than surface effect."
       },
       {
-        "eyebrow": "Future Studio Vision",
-        "title": "A long-term creative direction.",
-        "text": "Third Tone may develop into a future studio practice, but at this stage it remains Daniel's design identity."
+        "eyebrow": "Visual Language",
+        "title": "Editorial and architectural.",
+        "text": "Muted tones, structured grids, large imagery, and minimal typography keep the portfolio clear and measured."
       },
       {
-        "eyebrow": "Approach to Interiors",
-        "title": "Concept-led but practical.",
-        "text": "Strong spatial narratives, clear planning, thoughtful materials, and presentation that communicates feeling and function."
+        "eyebrow": "Future Direction",
+        "title": "A possible studio direction.",
+        "text": "Third Tone may grow into a future practice, but for now it remains Daniel Lawrence's personal design identity."
       }
     ]
   },
   "about": {
     "eyebrow": "About Daniel",
-    "title": "Emerging interior designer.",
-    "lead": "I am a final-year interior design student based in Cape Town, currently completing a Bachelor of Arts in Interior Design. My work focuses on interior environments that are calm, atmospheric, and carefully considered.",
+    "title": "Final-year interior design student.",
+    "lead": "I am a final-year Bachelor of Arts in Interior Design student based in Cape Town. My work focuses on calm, atmospheric interiors shaped through material sensitivity, visual storytelling, and growing technical development.",
     "heading": "About Daniel",
     "paragraphs": [
-      "My student journey has allowed me to explore residential, commercial, wellness, retail, and conceptual interiors. Across these projects, I have developed a strong interest in how interiors can be shaped through atmosphere, restraint, light, material texture, and human experience.",
-      "I work across concept development, spatial planning, technical documentation, 3D modelling, rendering, and editorial presentation. My process often moves between research, sketching, modelling, material exploration, technical drawing, and visual storytelling.",
-      "Third Tone represents the visual language behind my work. It reflects my interest in calm, tactile, and refined interiors, while allowing my portfolio to remain centred on me as an emerging designer.",
-      "My long-term goal is to gain experience within a design studio environment, contribute meaningfully to real projects, and continue developing the technical, conceptual, and professional skills needed to grow within the interior design industry."
+      "My student journey has allowed me to explore residential, commercial, wellness, retail, and conceptual interiors. Across these projects, I have become increasingly interested in how atmosphere, restraint, light, material texture, cultural references, and visual storytelling shape a space.",
+      "I work across concept development, spatial planning, technical documentation, 3D modelling, rendering, and editorial presentation. My process often moves between research, sketching, modelling, material exploration, technical drawing, and visual communication.",
+      "Third Tone represents the visual language behind my work. It reflects my interest in calm, tactile, and refined interiors, while allowing the portfolio to remain centred on Daniel Lawrence as an emerging designer.",
+      "My long-term goal is to gain studio experience, contribute meaningfully to real projects, and continue developing into a well-rounded interior designer with strong conceptual, visual, and technical skills."
     ],
     "infoStrips": [
       {
@@ -178,6 +178,7 @@
           "Residential interiors",
           "Commercial interiors",
           "Wellness environments",
+          "Retail interiors",
           "Conceptual interiors",
           "Materiality",
           "Atmosphere",
@@ -209,9 +210,9 @@
   "contactPage": {
     "eyebrow": "Contact / Open to Opportunities",
     "title": "Open to Opportunities",
-    "lead": "I am currently open to internship, junior interior design, studio assistant, and freelance visualisation opportunities where I can continue developing under experienced designers while contributing strong presentation, conceptual, and visual communication skills.",
+    "lead": "I am currently open to internships, junior interior design roles, studio assistant roles, and freelance visualisation opportunities. I am looking to contribute strong concept development, visual communication, rendering, presentation, and growing technical documentation skills while continuing to learn within a professional studio environment.",
     "heading": "For enquiries, opportunities, collaborations, or portfolio requests, please get in touch.",
-    "note": "Third Tone is the personal design identity behind Daniel Lawrence's portfolio, used to frame his visual language, design values, and future studio direction.",
+    "note": "Third Tone is Daniel Lawrence's personal design identity, used to frame the visual language, design values, and future studio direction of the portfolio.",
     "formNote": "The form opens a prepared email in your mail app."
   },
   "cvUnavailableMessage": "CV currently unavailable. For enquiries, please use an alternative contact method.",
@@ -223,7 +224,7 @@
       "type": "Academic Project",
       "module": "INTD 3A",
       "context": "Commercial studio interior",
-      "summary": "A commercial studio interior exploring layered privacy, atmospheric restraint, brand-to-space translation, and material calm.",
+      "summary": "A commercial studio interior translating the Third Tone identity into a calm workplace through layered privacy, material restraint, and controlled spatial sequence.",
       "hero": "assets/img/third-tone-office-hero.jpg",
       "images": [
         {
@@ -264,7 +265,7 @@
       "type": "Academic Project",
       "module": "INTD 3A",
       "context": "Wellness interior",
-      "summary": "A wellness interior exploring ritual, water, introspection, and collective solitude through a spatial sequence of hot, cold, and transitional experiences.",
+      "summary": "A wellness interior that stages ritual, water, introspection, and collective solitude through a sequence of hot, cold, and transitional experiences.",
       "hero": "assets/img/ritual-bathhouse-hero.jpg",
       "images": [
         {
