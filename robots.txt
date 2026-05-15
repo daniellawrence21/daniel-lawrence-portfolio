@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daniellawrence21.github.io/daniel-lawrence-portfolio/sitemap.xml
