@@ -259,7 +259,7 @@
     },
     {
       "slug": "ritual-bathhouse",
-      "title": "Urban Ritual Collective / Ritual Bathhouse",
+      "title": "Urban Ritual Bathhouse",
       "year": "2026",
       "type": "Academic Project",
       "module": "INTD 3A",
@@ -300,12 +300,12 @@
     },
     {
       "slug": "id2a-summative",
-      "title": "University Transitional Space",
+      "title": "Soft Thresholds",
       "year": "Year 2",
       "type": "Academic Project",
       "module": "INTD6231",
-      "context": "Phased interior design submission",
-      "summary": "A Year 2 summative interior project showing phased concept development, rendered spatial atmosphere, material scheduling, and presentation resolution.",
+      "context": "Campus transitional interior",
+      "summary": "A university transitional space exploring soft thresholds, phased concept development, rendered atmosphere, material scheduling, and presentation resolution.",
       "hero": "assets/img/id2a-university-hero.jpg",
       "images": [
         {
@@ -363,8 +363,8 @@
       "tools": "SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop, Microsoft Excel",
       "role": "Concept development, spatial planning, rendering, material schedule, presentation",
       "brief": "The summative project required a complete interior design response developed through sequential phases, from early research and concept into visualisation, material thinking, and final presentation.",
-      "concept": "The work explores how a defined interior atmosphere can be built through controlled colour, material relationships, furniture composition, and the balance between functional requirements and visual calm.",
-      "response": "The design response uses rendered views, phased presentation documents, material schedules, and plan-based decision making to show a complete academic process rather than a single finished image.",
+      "concept": "Soft Thresholds explores the in-between spaces of a university environment: places for pause, movement, informal gathering, and quieter transition between formal learning settings.",
+      "response": "The design response uses rendered views, phased presentation documents, material schedules, and plan-based decision making to frame a calm transitional interior rather than a single finished image.",
       "moves": [
         ["Phased Development", "The project is built through research, concept, planning, rendering, material scheduling, and final communication."],
         ["Atmospheric Framing", "Renders are composed to show how material and light affect the experience of the interior."],
@@ -379,12 +379,12 @@
     },
     {
       "slug": "id2b-formative",
-      "title": "Interior Design 2B Formative Project",
+      "title": "Hicks Family Kitchen Design",
       "year": "Year 2",
       "type": "Academic Project",
       "module": "INTD6232",
-      "context": "Kitchen and residential interior study",
-      "summary": "A kitchen-focused formative project combining client-based planning, rendering, AutoCAD drawing, material selection, and costing development.",
+      "context": "Residential kitchen proposal",
+      "summary": "A client-led residential kitchen proposal combining planning, rendering, AutoCAD drawing, material selection, and costing development.",
       "hero": "assets/img/id2b-formative-hero.jpg",
       "images": [
         {
@@ -399,7 +399,7 @@
       "tags": ["Technical Documentation", "Residential", "Kitchen Design", "Costing", "Visualisation", "Academic Project"],
       "tools": "SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop, Microsoft Excel",
       "role": "Client analysis, kitchen planning, technical drawing, rendering, costing, presentation",
-      "brief": "The formative project responds to a client-based kitchen design brief. It required practical planning, technical communication, material choices, cost awareness, and a presentation suitable for review.",
+      "brief": "The formative project responds to a client-based kitchen design brief for the Hicks family. It required practical planning, technical communication, material choices, cost awareness, and a presentation suitable for review.",
       "concept": "The design is driven by practical domestic use: storage, workflow, durability, and a calm material language that can support daily family routines without visual clutter.",
       "response": "The kitchen is resolved through cabinetry layout, floorplan development, rendered views, material images, specification thinking, and costing sheets. The work shows a move toward professional documentation habits.",
       "moves": [
@@ -416,12 +416,12 @@
     },
     {
       "slug": "id2b-summative",
-      "title": "Interior Design 2B Summative Project",
+      "title": "Gillitts Station Residence",
       "year": "Year 2",
       "type": "Academic Project",
       "module": "INTD6232",
-      "context": "Summative technical and conceptual interior study",
-      "summary": "A Year 2 summative project showing technical development, digital modelling, interior documentation, and a stronger relationship between structure and atmosphere.",
+      "context": "Adaptive reuse Airbnb retreat",
+      "summary": "A restored railway station reimagined as a calm contemporary Airbnb retreat, balancing heritage character, technical development, and atmospheric interior resolution.",
       "hero": "assets/img/id2b-summative-hero.jpg",
       "images": [
         {
@@ -436,9 +436,9 @@
       "tags": ["Technical Documentation", "Revit", "Spatial Planning", "Concept Design", "Visualisation", "Academic Project"],
       "tools": "Revit, SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop",
       "role": "Digital modelling, technical development, spatial planning, presentation",
-      "brief": "The summative project required the development of an interior proposal with stronger technical control, drawing logic, and model-based resolution.",
-      "concept": "The project investigates how technical structure and interior atmosphere can support one another. The design is less about surface styling and more about proportion, assembly, and clear spatial intent.",
-      "response": "The work develops an interior through digital modelling, drawing sets, technical review, and final presentation. It shows continued growth in documentation and the ability to think across both visual and construction-related layers.",
+      "brief": "The summative project required the development of an interior proposal for Gillitts Station, a restored 1900s railway station adapted into a contemporary short-stay retreat.",
+      "concept": "The Journey Becomes the Destination frames the residence as a quiet retreat where heritage, landscape, and contemporary living meet. The design focuses on atmosphere, proportion, and the threshold between historic structure and new interior use.",
+      "response": "The work develops the residence through digital modelling, drawing sets, technical review, and final presentation. It preserves the character of the railway station while introducing calm interiors suited to an Airbnb retreat.",
       "moves": [
         ["Model-Based Thinking", "Digital modelling is used to test proportion, structure, and spatial relationships."],
         ["Technical Resolution", "Drawings and model files support the project as a buildable proposal rather than a purely atmospheric image."],
