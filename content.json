@@ -1,0 +1,455 @@
+{
+  "downloads": {
+    "portfolio": "assets/downloads/Daniel-Lawrence-Portfolio.pdf"
+  },
+  "contact": {
+    "email": "daniel@cdcdesign.co.za",
+    "location": "Cape Town, South Africa",
+    "instagram": "https://www.instagram.com/thirdtonedesign/",
+    "linkedin": "https://www.linkedin.com/",
+    "behance": "https://www.behance.net/",
+    "thirdToneInstagram": "https://www.instagram.com/"
+  },
+  "focusAreas": [
+    "Interior design",
+    "Concept development",
+    "Spatial planning",
+    "Material specification",
+    "Technical documentation",
+    "3D modelling",
+    "Rendering and visualisation",
+    "Presentation design",
+    "Branding and visual identity",
+    "Furniture design",
+    "Adobe layout work",
+    "Research and precedent studies",
+    "Sustainability thinking",
+    "Client communication"
+  ],
+  "software": [
+    "SketchUp",
+    "Enscape",
+    "AutoCAD",
+    "Revit",
+    "Adobe InDesign",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Microsoft Word",
+    "Microsoft Excel"
+  ],
+  "home": {
+    "eyebrow": "Cape Town-based final-year interior design student",
+    "name": "Daniel Lawrence",
+    "titleLines": [
+      "Interior Design Portfolio",
+      "Developed through the visual language of Third Tone"
+    ],
+    "heroText": [
+      "I am a final-year interior design student based in Cape Town, developing a body of work across residential, commercial, wellness, and conceptual interior environments.",
+      "My work explores atmosphere, restraint, material sensitivity, and the emotional quality of space, with a focus on interiors that feel calm, intentional, and human-centred."
+    ],
+    "heroImages": [
+      {
+        "src": "assets/img/home-hero-third-tone-living.jpg",
+        "alt": "Third Tone residential interior study"
+      },
+      {
+        "src": "assets/img/home-hero-kitchen.jpg",
+        "alt": "Warm kitchen interior visualisation study"
+      }
+    ],
+    "heroCaption": "Third Tone visual language / residential and material studies",
+    "introTitle": "A portfolio of spatial thinking, atmosphere, and process.",
+    "introLead": "This portfolio brings together academic, conceptual, and self-directed design work developed throughout my interior design studies. Each project is presented as both a finished outcome and a record of process, showing how concept, materiality, technical resolution, and visual communication come together.",
+    "introText": "Third Tone forms the visual language behind the portfolio. It is not positioned as a separate business, but as the personal design identity through which my work is framed: quiet, tactile, restrained, and considered.",
+    "selectedEyebrow": "Selected Projects",
+    "selectedTitle": "Academic work with visual, spatial, and technical range.",
+    "selectedText": "Large image-led entries introduce each project quickly, then the case study pages open the process: brief, concept, design response, drawings, renders, material direction, and reflection.",
+    "approachEyebrow": "Approach",
+    "approachTitle": "Concept-led, practical, and visually controlled.",
+    "approachLead": "My process moves between research, sketching, modelling, technical drawing, material testing, and editorial presentation. I am interested in interiors that communicate feeling without losing clarity, usability, or construction awareness.",
+    "approachItems": [
+      {
+        "title": "Atmosphere",
+        "text": "Light, silence, texture, and proportion are used to shape how a space feels before it is described."
+      },
+      {
+        "title": "Planning",
+        "text": "Layouts are developed through use, sequence, threshold, privacy, and movement rather than decoration alone."
+      },
+      {
+        "title": "Materiality",
+        "text": "Materials are chosen for tactile quality, durability, restraint, and the way they support human experience."
+      },
+      {
+        "title": "Communication",
+        "text": "Renders, drawings, captions, and editorial layouts work together so a reviewer can read the project quickly."
+      }
+    ],
+    "thirdTonePreviewEyebrow": "Third Tone",
+    "thirdTonePreviewTitle": "A personal design language.",
+    "thirdTonePreviewText": "Third Tone is the visual and conceptual identity behind my portfolio. It represents a way of working rather than a separate professional title: calm, tactile, restrained, atmospheric, and quietly detailed.",
+    "thirdTonePreviewImage": {
+      "src": "assets/img/third-tone-identity.jpg",
+      "alt": "Third Tone personal design identity graphic"
+    },
+    "opportunitiesEyebrow": "Open to Opportunities",
+    "opportunitiesTitle": "Ready to contribute, learn, and keep developing.",
+    "opportunitiesText": "I am currently open to internship, junior interior design, studio assistant, and freelance visualisation opportunities where I can continue developing under experienced designers while contributing strong presentation, conceptual, and visual communication skills."
+  },
+  "work": {
+    "eyebrow": "Selected Work",
+    "title": "Project archive",
+    "lead": "A concise archive of academic, conceptual, commercial, wellness, residential, and technical interior design work. Each entry is built to show range at a glance, with deeper case study structure inside.",
+    "filters": [
+      "All",
+      "Visualisation",
+      "Technical Documentation",
+      "Materiality",
+      "Spatial Planning",
+      "Wellness"
+    ]
+  },
+  "thirdTone": {
+    "eyebrow": "Third Tone",
+    "title": "A personal design language.",
+    "lead": "Third Tone is the visual and conceptual identity behind my portfolio. It represents a way of working rather than a separate professional title. It is a framework for the kind of interiors I am drawn to: calm, tactile, restrained, atmospheric, and quietly detailed.",
+    "image": {
+      "src": "assets/img/third-tone-identity.jpg",
+      "alt": "Third Tone personal design identity artwork"
+    },
+    "paragraphs": [
+      "The name reflects a space between contrast and resolution. It suggests a third condition: not purely minimal, not decorative, but balanced, layered, and emotionally considered.",
+      "Through Third Tone, I explore interiors that feel composed rather than overdesigned. The language is rooted in muted palettes, natural tactility, editorial restraint, and a sensitivity to how people experience space over time."
+    ],
+    "principles": [
+      "Restraint",
+      "Warmth",
+      "Tactility",
+      "Balance",
+      "Silence",
+      "Atmosphere",
+      "Material honesty",
+      "Human experience",
+      "Editorial clarity"
+    ],
+    "approachItems": [
+      {
+        "eyebrow": "Design Philosophy",
+        "title": "Calm, intentional, human-centred.",
+        "text": "Create interiors that prioritise atmosphere, proportion, materiality, light, and restraint."
+      },
+      {
+        "eyebrow": "Visual Identity",
+        "title": "Editorial support, not dominance.",
+        "text": "Muted tones, structured grids, large imagery, and minimal typography support the work rather than overpower it."
+      },
+      {
+        "eyebrow": "Future Studio Vision",
+        "title": "A long-term creative direction.",
+        "text": "Third Tone may develop into a future studio practice, but at this stage it remains Daniel's design identity."
+      },
+      {
+        "eyebrow": "Approach to Interiors",
+        "title": "Concept-led but practical.",
+        "text": "Strong spatial narratives, clear planning, thoughtful materials, and presentation that communicates feeling and function."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Daniel",
+    "title": "Emerging interior designer.",
+    "lead": "I am a final-year interior design student based in Cape Town, currently completing a Bachelor of Arts in Interior Design. My work focuses on interior environments that are calm, atmospheric, and carefully considered.",
+    "heading": "About Daniel",
+    "paragraphs": [
+      "My student journey has allowed me to explore residential, commercial, wellness, retail, and conceptual interiors. Across these projects, I have developed a strong interest in how interiors can be shaped through atmosphere, restraint, light, material texture, and human experience.",
+      "I work across concept development, spatial planning, technical documentation, 3D modelling, rendering, and editorial presentation. My process often moves between research, sketching, modelling, material exploration, technical drawing, and visual storytelling.",
+      "Third Tone represents the visual language behind my work. It reflects my interest in calm, tactile, and refined interiors, while allowing my portfolio to remain centred on me as an emerging designer.",
+      "My long-term goal is to gain experience within a design studio environment, contribute meaningfully to real projects, and continue developing the technical, conceptual, and professional skills needed to grow within the interior design industry."
+    ],
+    "infoStrips": [
+      {
+        "title": "Background",
+        "text": "Final-year interior design student in Cape Town."
+      },
+      {
+        "title": "Design Interests",
+        "items": [
+          "Residential interiors",
+          "Commercial interiors",
+          "Wellness environments",
+          "Conceptual interiors",
+          "Materiality",
+          "Atmosphere",
+          "Spatial storytelling",
+          "Technical detailing",
+          "Visual communication"
+        ]
+      },
+      {
+        "title": "Influences",
+        "text": "Warm contemporary interiors, Scandinavian restraint, Japanese craftsmanship, Axel Vervoordt, Vincent Van Duysen, tactile materials, architecture, fashion, photography, cultural heritage, and editorial design."
+      },
+      {
+        "title": "Strengths",
+        "items": [
+          "Concept development",
+          "Presentation design",
+          "Spatial atmosphere",
+          "Material sensitivity",
+          "Rendering and visualisation",
+          "Technical drawing development",
+          "Attention to detail",
+          "Clear project storytelling",
+          "Willingness to learn within a professional studio setting"
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact / Open to Opportunities",
+    "title": "Open to Opportunities",
+    "lead": "I am currently open to internship, junior interior design, studio assistant, and freelance visualisation opportunities where I can continue developing under experienced designers while contributing strong presentation, conceptual, and visual communication skills.",
+    "heading": "For enquiries, opportunities, collaborations, or portfolio requests, please get in touch.",
+    "note": "Third Tone is the personal design identity behind Daniel Lawrence's portfolio, used to frame his visual language, design values, and future studio direction.",
+    "formNote": "The form opens a prepared email in your mail app."
+  },
+  "cvUnavailableMessage": "CV currently unavailable. For enquiries, please use an alternative contact method.",
+  "projects": [
+    {
+      "slug": "third-tone-office",
+      "title": "Third Tone Office",
+      "year": "2026",
+      "type": "Academic Project",
+      "module": "INTD 3A",
+      "context": "Commercial studio interior",
+      "summary": "A commercial studio interior exploring layered privacy, atmospheric restraint, brand-to-space translation, and material calm.",
+      "hero": "assets/img/third-tone-office-hero.jpg",
+      "images": [
+        {
+          "src": "assets/img/third-tone-office-render-02.jpg",
+          "caption": "Interior render exploring a restrained workspace palette and softened threshold."
+        },
+        {
+          "src": "assets/img/third-tone-office-render-03.jpg",
+          "caption": "Atmospheric view showing the relationship between work setting, material tone, and visual quiet."
+        },
+        {
+          "src": "assets/img/third-tone-office-technical.jpg",
+          "caption": "Technical presentation sheet used to communicate drawing logic and project resolution."
+        }
+      ],
+      "tags": ["Concept Design", "Technical Documentation", "Visualisation", "Materiality", "Spatial Planning", "Academic Project"],
+      "tools": "SketchUp, Enscape, AutoCAD, Revit, Adobe InDesign, Photoshop, Illustrator",
+      "role": "Interior design, concept development, spatial planning, visualisation, presentation",
+      "brief": "The project translates a personal design identity into a working studio environment. It considers how a small creative workplace can balance privacy, collaboration, client presentation, material clarity, and everyday functionality.",
+      "concept": "Third Tone is used as a spatial language rather than a commercial persona. The concept sits between contrast and resolution: spaces are layered through muted tone, clear thresholds, tactile material shifts, and a calm rhythm of work and pause.",
+      "response": "The office is organised as a sequence of public, semi-private, and focused zones. Warm neutral finishes, controlled lighting, built-in storage, and low visual noise create a workplace that feels composed without becoming sterile.",
+      "moves": [
+        ["Layered Privacy", "Public arrival and presentation areas shift gradually into quieter work zones instead of relying on a hard front-of-house/back-of-house split."],
+        ["Brand to Space", "The Third Tone identity is translated through proportion, tone, texture, and restraint rather than applied branding."],
+        ["Material Calm", "Stone, soft plaster, timber warmth, and dark accents establish a tactile palette that supports concentration."],
+        ["Editorial Circulation", "Movement is treated as a controlled sequence of framed views, pauses, and reveals."]
+      ],
+      "material": "The material direction uses warm plaster, quiet timber, soft grey upholstery, stone surfaces, and restrained black accents. The selections prioritise durability, visual consistency, and a calm atmosphere suitable for studio work and client review.",
+      "technical": "Technical development focuses on plan logic, built-in elements, elevation communication, lighting placement, and presentation sheets that make the design readable beyond the render. The project is positioned to show both atmosphere and practical resolution.",
+      "visualisation": "The renders communicate a soft commercial interior where the brand identity is embedded in the spatial mood. Views are selected to show threshold, work areas, material tone, and the balance between openness and privacy.",
+      "process": "The process moves from identity and precedent studies into zoning, plan testing, material palettes, render development, and technical presentation. The strongest learning was translating a visual language into actual spatial decisions.",
+      "reflection": "This project strengthened my ability to connect concept, brand atmosphere, and technical planning. It also helped clarify how Third Tone can support my portfolio without replacing Daniel Lawrence as the primary identity."
+    },
+    {
+      "slug": "ritual-bathhouse",
+      "title": "Urban Ritual Collective / Ritual Bathhouse",
+      "year": "2026",
+      "type": "Academic Project",
+      "module": "INTD 3A",
+      "context": "Wellness interior",
+      "summary": "A wellness interior exploring ritual, water, introspection, and collective solitude through a spatial sequence of hot, cold, and transitional experiences.",
+      "hero": "assets/img/ritual-bathhouse-hero.jpg",
+      "images": [
+        {
+          "src": "assets/img/ritual-bathhouse-cold-plunge.jpg",
+          "caption": "Cold plunge zone, focused on temperature contrast, stillness, and bodily awareness."
+        },
+        {
+          "src": "assets/img/ritual-bathhouse-sauna.jpg",
+          "caption": "Sauna environment using enclosure, warmth, and low light to shape a slower ritual sequence."
+        },
+        {
+          "src": "assets/img/ritual-bathhouse-axonometric.jpg",
+          "caption": "Axonometric process image showing how the project is organised as a spatial sequence."
+        }
+      ],
+      "tags": ["Concept Design", "Wellness", "Visualisation", "Materiality", "Spatial Sequence", "Academic Project"],
+      "tools": "SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop, Illustrator",
+      "role": "Interior design, concept development, spatial planning, visualisation, presentation",
+      "brief": "The assignment explores a wellness environment that supports ritual, recovery, and social retreat. The design challenge is to create a clear sequence of spaces where water, heat, privacy, and collective presence are balanced.",
+      "concept": "The concept is built around collective solitude: a shared interior where the user can remain inward, quiet, and aware of the body. The experience is shaped through contrast between heat and cold, compression and release, darkness and reflected light.",
+      "response": "The layout choreographs arrival, changing, transition, hot immersion, cold plunge, sauna, and tea as a considered route. Each zone has a distinct atmospheric pressure while remaining part of one restrained wellness language.",
+      "moves": [
+        ["Thermal Sequence", "Hot, cold, and resting areas are ordered as a ritual path rather than isolated rooms."],
+        ["Threshold and Pause", "Corridors and transition spaces slow the user down before each temperature change."],
+        ["Collective Solitude", "Benches, pools, and edges allow shared presence without forcing constant social interaction."],
+        ["Reflected Light", "Water, dark surfaces, and low illumination create a calm visual field with controlled moments of reflection."]
+      ],
+      "material": "Stone, plaster, tile, timber, water, and low-sheen finishes build a tactile palette that feels durable, grounded, and quiet. The materials support moisture resistance while holding the emotional stillness of the concept.",
+      "technical": "Technical development includes plan organisation, axonometric communication, section thinking, service-aware zoning, and the coordination of wet, dry, hot, and transitional spaces.",
+      "visualisation": "The visualisation work focuses on atmosphere, scale, and sequence. Renders are used to communicate low light, water reflection, enclosure, texture, and the emotional shift between hot and cold experiences.",
+      "process": "The process includes site and precedent research, spatial sequencing, axonometric testing, render iterations, and material studies. The project demonstrates how an interior can be designed through time, not only through plan.",
+      "reflection": "This project developed my understanding of experiential interiors and sharpened my ability to translate abstract ritual ideas into practical spatial moves, material decisions, and visual communication."
+    },
+    {
+      "slug": "id2a-summative",
+      "title": "University Transitional Space",
+      "year": "Year 2",
+      "type": "Academic Project",
+      "module": "INTD6231",
+      "context": "Phased interior design submission",
+      "summary": "A Year 2 summative interior project showing phased concept development, rendered spatial atmosphere, material scheduling, and presentation resolution.",
+      "hero": "assets/img/id2a-university-hero.jpg",
+      "images": [
+        {
+          "src": "assets/img/id2a-university-render-01.jpg",
+          "caption": "Final render from the INTD6231 summative presentation."
+        },
+        {
+          "src": "assets/img/id2a-university-render-02.jpg",
+          "caption": "Final render showing seating, threshold, and shared transitional atmosphere."
+        },
+        {
+          "src": "assets/img/id2a-university-render-03.jpg",
+          "caption": "Final render showing ceiling, planting, and architectural volume."
+        },
+        {
+          "src": "assets/img/id2a-university-render-04.jpg",
+          "caption": "Final render detail from the INTD6231 presentation."
+        }
+      ],
+      "conceptImages": [
+        {
+          "src": "assets/img/id2a-university-concept.jpg",
+          "caption": "Concept perspective showing the early spatial and atmospheric direction."
+        }
+      ],
+      "technicalImages": [
+        {
+          "src": "assets/img/id2a-university-section.jpg",
+          "caption": "Sectional development drawing from the INTD6231 technical package."
+        },
+        {
+          "src": "assets/img/id2a-university-floorplan.jpg",
+          "caption": "Final floorplan from the closing page of the INTD6231 summative PDF."
+        }
+      ],
+      "visualImages": [
+        {
+          "src": "assets/img/id2a-university-render-01.jpg",
+          "caption": "Final render from the INTD6231 summative presentation."
+        },
+        {
+          "src": "assets/img/id2a-university-render-02.jpg",
+          "caption": "Final render showing seating, threshold, and shared transitional atmosphere."
+        },
+        {
+          "src": "assets/img/id2a-university-render-03.jpg",
+          "caption": "Final render showing ceiling, planting, and architectural volume."
+        },
+        {
+          "src": "assets/img/id2a-university-render-04.jpg",
+          "caption": "Final render detail from the INTD6231 presentation."
+        }
+      ],
+      "tags": ["Concept Design", "Visualisation", "Materiality", "Spatial Planning", "Presentation Design", "Academic Project"],
+      "tools": "SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop, Microsoft Excel",
+      "role": "Concept development, spatial planning, rendering, material schedule, presentation",
+      "brief": "The summative project required a complete interior design response developed through sequential phases, from early research and concept into visualisation, material thinking, and final presentation.",
+      "concept": "The work explores how a defined interior atmosphere can be built through controlled colour, material relationships, furniture composition, and the balance between functional requirements and visual calm.",
+      "response": "The design response uses rendered views, phased presentation documents, material schedules, and plan-based decision making to show a complete academic process rather than a single finished image.",
+      "moves": [
+        ["Phased Development", "The project is built through research, concept, planning, rendering, material scheduling, and final communication."],
+        ["Atmospheric Framing", "Renders are composed to show how material and light affect the experience of the interior."],
+        ["Furniture and Use", "Furniture placement is treated as a tool for circulation, comfort, and spatial definition."],
+        ["Material Resolution", "Finish choices are organised through schedules to connect visual direction with practical selection."]
+      ],
+      "material": "The palette is handled through material and finishes scheduling, balancing tactile surfaces with a calm visual field. The project shows early development of specification thinking and finish coordination.",
+      "technical": "Technical work includes phased documentation, floorplan development, schedules, and presentation packages. This is important in the portfolio because it shows process and communication beyond final renders.",
+      "visualisation": "The visualisation work uses Enscape renders to communicate mood, proportion, furniture relationships, and the overall material direction of the project.",
+      "process": "The project files include SketchUp work, InDesign phases, Word submissions, material schedules, floorplan files, and final PDFs. This range shows a structured academic workflow across multiple deliverables.",
+      "reflection": "This project helped build confidence in managing a complete interior submission and strengthened my understanding of how visualisation, documentation, and material decisions support one another."
+    },
+    {
+      "slug": "id2b-formative",
+      "title": "Interior Design 2B Formative Project",
+      "year": "Year 2",
+      "type": "Academic Project",
+      "module": "INTD6232",
+      "context": "Kitchen and residential interior study",
+      "summary": "A kitchen-focused formative project combining client-based planning, rendering, AutoCAD drawing, material selection, and costing development.",
+      "hero": "assets/img/id2b-formative-hero.jpg",
+      "images": [
+        {
+          "src": "assets/img/id2b-formative-technical.jpg",
+          "caption": "AutoCAD floorplan export from the kitchen design package."
+        },
+        {
+          "src": "assets/img/id2b-formative-render-02.jpg",
+          "caption": "Rendered kitchen view communicating cabinetry, finishes, and spatial use."
+        }
+      ],
+      "tags": ["Technical Documentation", "Residential", "Kitchen Design", "Costing", "Visualisation", "Academic Project"],
+      "tools": "SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop, Microsoft Excel",
+      "role": "Client analysis, kitchen planning, technical drawing, rendering, costing, presentation",
+      "brief": "The formative project responds to a client-based kitchen design brief. It required practical planning, technical communication, material choices, cost awareness, and a presentation suitable for review.",
+      "concept": "The design is driven by practical domestic use: storage, workflow, durability, and a calm material language that can support daily family routines without visual clutter.",
+      "response": "The kitchen is resolved through cabinetry layout, floorplan development, rendered views, material images, specification thinking, and costing sheets. The work shows a move toward professional documentation habits.",
+      "moves": [
+        ["Workflow", "Planning considers preparation, storage, cooking, cleaning, and movement through the kitchen."],
+        ["Cabinetry Rhythm", "Upper and lower cabinetry are used to create order, storage capacity, and visual consistency."],
+        ["Cost Awareness", "Costing sheets connect design choices to budget thinking and value engineering."],
+        ["Technical Clarity", "AutoCAD exports and section work support the design beyond visual presentation."]
+      ],
+      "material": "Melamine, worktop finishes, hardware, and neutral surfaces are considered for cost, durability, and visual restraint. Material choices are connected to client use rather than only mood.",
+      "technical": "Technical development includes floorplan exports, sectional drawings, CAD files, kitchen costing templates, and specification resources. This project is useful for employers because it shows practical design coordination.",
+      "visualisation": "Renders are used to communicate cabinetry proportion, finish relationships, lighting, and how the kitchen would feel in use.",
+      "process": "The process combines client information, design references, CAD drawings, material research, costing spreadsheets, and presentation PDFs. It shows how a project can move from brief to measured interior proposal.",
+      "reflection": "This project developed my practical understanding of kitchen planning, technical communication, costing, and client-centred design."
+    },
+    {
+      "slug": "id2b-summative",
+      "title": "Interior Design 2B Summative Project",
+      "year": "Year 2",
+      "type": "Academic Project",
+      "module": "INTD6232",
+      "context": "Summative technical and conceptual interior study",
+      "summary": "A Year 2 summative project showing technical development, digital modelling, interior documentation, and a stronger relationship between structure and atmosphere.",
+      "hero": "assets/img/id2b-summative-hero.jpg",
+      "images": [
+        {
+          "src": "assets/img/id2b-summative-render-02.jpg",
+          "caption": "Interior render extracted from the INTD6232 final PDF submission."
+        },
+        {
+          "src": "assets/img/id2b-summative-technical.jpg",
+          "caption": "Technical axonometric material used in the final PDF submission."
+        }
+      ],
+      "tags": ["Technical Documentation", "Revit", "Spatial Planning", "Concept Design", "Visualisation", "Academic Project"],
+      "tools": "Revit, SketchUp, Enscape, AutoCAD, Adobe InDesign, Photoshop",
+      "role": "Digital modelling, technical development, spatial planning, presentation",
+      "brief": "The summative project required the development of an interior proposal with stronger technical control, drawing logic, and model-based resolution.",
+      "concept": "The project investigates how technical structure and interior atmosphere can support one another. The design is less about surface styling and more about proportion, assembly, and clear spatial intent.",
+      "response": "The work develops an interior through digital modelling, drawing sets, technical review, and final presentation. It shows continued growth in documentation and the ability to think across both visual and construction-related layers.",
+      "moves": [
+        ["Model-Based Thinking", "Digital modelling is used to test proportion, structure, and spatial relationships."],
+        ["Technical Resolution", "Drawings and model files support the project as a buildable proposal rather than a purely atmospheric image."],
+        ["Interior Structure", "Built elements, openings, and surfaces are coordinated to create order and clarity."],
+        ["Presentation Control", "The final submission uses concise visual communication to make the design legible."]
+      ],
+      "material": "The material direction is restrained, focusing on surfaces and assemblies that support the spatial structure. The aim is to keep the interior grounded and technically believable.",
+      "technical": "Technical development includes Revit-based project files, PDF submissions, model components, and review material. The project demonstrates a growing technical foundation for studio work.",
+      "visualisation": "Visual communication is used to show structure, massing, space, and interior atmosphere. The image-led presentation supports quick employer review while pointing toward deeper technical work.",
+      "process": "The project moved through model development, drawing review, technical refinement, and summative presentation. It reflects the shift from visual intent toward coordinated interior documentation.",
+      "reflection": "This project helped strengthen my confidence with technical modelling and documentation, especially the relationship between interior atmosphere and construction logic."
+    }
+  ]
+}
