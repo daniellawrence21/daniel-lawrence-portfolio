@@ -367,12 +367,21 @@ function renderContact() {
 }
 
 function figureMarkup(image) {
+  const figureClass = drawingImageClass(image);
+  const loading = figureClass === "is-drawing" ? "eager" : "lazy";
   return `
-    <figure>
-      <div class="image-frame"><img src="${image.src}" alt="${image.caption}" loading="lazy"></div>
+    <figure class="${figureClass}">
+      <div class="image-frame"><img src="${image.src}" alt="${image.caption}" loading="${loading}" decoding="async"></div>
       <figcaption>${image.caption}</figcaption>
     </figure>
   `;
+}
+
+function drawingImageClass(image) {
+  const text = `${image.src || ""} ${image.caption || ""}`;
+  return /(technical|drawing|floorplan|\bplan\b|section|sectional|axonometric|\bcad\b)/i.test(text)
+    ? "is-drawing"
+    : "is-render";
 }
 
 function imageGrid(images = []) {

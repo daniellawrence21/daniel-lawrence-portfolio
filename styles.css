@@ -1438,6 +1438,35 @@ textarea {
   object-fit: cover;
 }
 
+.image-grid figure.is-drawing {
+  grid-column: 1 / -1;
+}
+
+.image-grid figure.is-drawing .image-frame {
+  aspect-ratio: auto;
+  display: grid;
+  min-height: 0;
+  place-items: center;
+  padding: clamp(18px, 3vw, 44px);
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.image-grid figure.is-drawing img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+  filter: none;
+}
+
+.image-grid figure.is-drawing .image-frame:hover img {
+  transform: none;
+  filter: none;
+}
+
 figcaption {
   margin-top: 9px;
   color: var(--warm-grey);
