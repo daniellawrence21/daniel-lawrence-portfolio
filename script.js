@@ -255,7 +255,7 @@ function galleryItemMarkup(item, index) {
   const sizeClass = item.size ? `is-${item.size}` : "is-wide";
   return `
     <figure class="gallery-item ${sizeClass} reveal">
-      <img src="${item.src}" alt="${item.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
+      <img src="${item.src}" alt="${item.alt}" loading="eager" decoding="async">
     </figure>
   `;
 }
