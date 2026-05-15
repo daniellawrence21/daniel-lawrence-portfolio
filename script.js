@@ -308,7 +308,7 @@ function renderContact() {
   const contact = content.contact;
 
   main.innerHTML = `
-    <section class="page-hero">
+    <section class="page-hero contact-hero">
       <div class="inner">
         <div class="reveal">
           <p class="eyebrow">${page.eyebrow}</p>
