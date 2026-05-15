@@ -50,6 +50,10 @@
     ],
     "heroImages": [
       {
+        "src": "assets/img/ritual-bathhouse-hero.jpg",
+        "alt": "Ritual Bathhouse wellness interior"
+      },
+      {
         "src": "assets/img/home-hero-third-tone-living.jpg",
         "alt": "Third Tone residential interior study"
       },
@@ -58,7 +62,7 @@
         "alt": "Warm kitchen interior visualisation study"
       }
     ],
-    "heroCaption": "Third Tone visual language / residential and material studies",
+    "heroCaption": "Wellness, residential, and material studies / Third Tone visual language",
     "introTitle": "A portfolio of spatial thinking, atmosphere, and process.",
     "introLead": "This portfolio brings together academic, conceptual, and self-directed design work developed throughout my interior design studies. Each project is presented as both a finished outcome and a record of process, showing how concept, materiality, technical resolution, and visual communication come together.",
     "introText": "Third Tone forms the visual language behind the portfolio. It is not positioned as a separate business, but as my personal design identity: the framework through which I think about restraint, tactility, atmosphere, and material clarity.",

@@ -26,6 +26,45 @@ function paragraphs(items = []) {
   return items.map((item) => `<p>${item}</p>`).join("");
 }
 
+function heroCarousel(images = []) {
+  if (!images.length) return "";
+
+  return `
+    <div class="hero-carousel reveal" data-hero-carousel>
+      <div class="hero-carousel-track">
+        ${images
+          .map(
+            (image, index) => `
+              <figure class="hero-carousel-slide${index === 0 ? " is-active" : ""}" data-hero-slide="${index}" aria-hidden="${index === 0 ? "false" : "true"}">
+                <img src="${image.src}" alt="${image.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
+              </figure>
+            `
+          )
+          .join("")}
+      </div>
+      ${images.length > 1
+        ? `
+          <div class="hero-carousel-dots" aria-label="Home hero image carousel">
+            ${images
+              .map(
+                (_, index) => `
+                  <button
+                    type="button"
+                    class="hero-carousel-dot${index === 0 ? " is-active" : ""}"
+                    data-hero-dot="${index}"
+                    aria-label="Show hero image ${index + 1} of ${images.length}"
+                    aria-pressed="${index === 0 ? "true" : "false"}"
+                  ></button>
+                `
+              )
+              .join("")}
+          </div>
+        `
+        : ""}
+    </div>
+  `;
+}
+
 function projectCard(project) {
   return `
     <a class="project-card reveal" href="#project/${project.slug}" data-tags="${(project.tags || []).join(",")}">
@@ -61,7 +100,6 @@ function approachItems(items = []) {
 function renderHome() {
   const home = content.home;
   const featured = projects.map(projectCard).join("");
-  const heroImages = (home.heroImages || []).map((image) => `<img src="${image.src}" alt="${image.alt}">`).join("");
 
   main.innerHTML = `
     <section class="hero">
@@ -81,7 +119,7 @@ function renderHome() {
       </div>
       <div class="inner">
         <div class="hero-visual-moment reveal">
-          <div class="hero-image-pair">${heroImages}</div>
+          ${heroCarousel(home.heroImages || [])}
           <p class="caption">${home.heroCaption}</p>
         </div>
       </div>
@@ -508,6 +546,7 @@ function route() {
     window.scrollTo({ top: 0, behavior: "smooth" });
     main.classList.remove("is-leaving");
     revealOnScroll();
+    initHeroCarousel();
     hasRendered = true;
   }, delay);
 }
@@ -525,6 +564,37 @@ function showToast(message) {
   toast.classList.add("is-visible");
   window.clearTimeout(showToast.timer);
   showToast.timer = window.setTimeout(() => toast.classList.remove("is-visible"), 4200);
+}
+
+function initHeroCarousel() {
+  const carousel = document.querySelector("[data-hero-carousel]");
+  if (!carousel) return;
+
+  const slides = [...carousel.querySelectorAll("[data-hero-slide]")];
+  const dots = [...carousel.querySelectorAll("[data-hero-dot]")];
+  if (slides.length < 2 || !dots.length) return;
+
+  const setActive = (index) => {
+    slides.forEach((slide, slideIndex) => {
+      const active = slideIndex === index;
+      slide.classList.toggle("is-active", active);
+      slide.setAttribute("aria-hidden", String(!active));
+    });
+    dots.forEach((dot, dotIndex) => {
+      const active = dotIndex === index;
+      dot.classList.toggle("is-active", active);
+      dot.setAttribute("aria-pressed", String(active));
+    });
+  };
+
+  setActive(0);
+
+  dots.forEach((dot) => {
+    dot.addEventListener("click", () => {
+      const index = Number(dot.dataset.heroDot || 0);
+      setActive(index);
+    });
+  });
 }
 
 async function loadContent() {
