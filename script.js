@@ -252,25 +252,9 @@ function renderWork() {
 }
 
 function galleryItemMarkup(item, index) {
-  if (item.layout === "spread" && Array.isArray(item.images)) {
-    return `
-      <figure class="gallery-spread reveal">
-        ${item.images
-          .map(
-            (image, imageIndex) => `
-              <div class="gallery-panel${imageIndex === 0 ? " is-left" : " is-right"}">
-                <img src="${image.src}" alt="${image.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
-              </div>
-            `
-          )
-          .join("")}
-      </figure>
-    `;
-  }
-
-  const spanClass = item.span === "full" ? "is-full" : item.span === "half" ? "is-half" : "is-standard";
+  const sizeClass = item.size ? `is-${item.size}` : "is-wide";
   return `
-    <figure class="gallery-item ${spanClass} reveal">
+    <figure class="gallery-item ${sizeClass} reveal">
       <img src="${item.src}" alt="${item.alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
     </figure>
   `;

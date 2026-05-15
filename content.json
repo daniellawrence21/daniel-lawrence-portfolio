@@ -117,102 +117,77 @@
   "gallery": {
     "eyebrow": "Gallery",
     "title": "Visualisations",
-    "lead": "Selected render studies and visual communication, arranged with minimal text so the images can read as an open portfolio spread.",
+    "lead": "Selected render studies and visual communication, arranged with minimal text so the images can read as a continuous visual sequence.",
     "items": [
       {
-        "layout": "spread",
-        "images": [
-          {
-            "src": "assets/img/gallery/gallery-ritual-bathhouse-hero.jpg",
-            "alt": "Ritual Bathhouse wellness interior"
-          },
-          {
-            "src": "assets/img/gallery/gallery-ritual-bathhouse-sauna.jpg",
-            "alt": "Ritual Bathhouse sauna interior"
-          }
-        ]
+        "size": "full",
+        "src": "assets/img/gallery/gallery-ritual-bathhouse-hero.jpg",
+        "alt": "Ritual Bathhouse wellness interior"
       },
       {
-        "layout": "single",
-        "span": "full",
+        "size": "wide",
+        "src": "assets/img/gallery/gallery-ritual-bathhouse-sauna.jpg",
+        "alt": "Ritual Bathhouse sauna interior"
+      },
+      {
+        "size": "wide",
         "src": "assets/img/gallery/gallery-ritual-bathhouse-cold-plunge.jpg",
         "alt": "Ritual Bathhouse cold plunge render"
       },
       {
-        "layout": "spread",
-        "images": [
-          {
-            "src": "assets/img/gallery/gallery-thula-16.jpg",
-            "alt": "THULA render study 16"
-          },
-          {
-            "src": "assets/img/gallery/gallery-thula-11.jpg",
-            "alt": "THULA render study 11"
-          }
-        ]
+        "size": "full",
+        "src": "assets/img/gallery/gallery-thula-16.jpg",
+        "alt": "THULA render study 16"
       },
       {
-        "layout": "single",
-        "span": "half",
+        "size": "wide",
+        "src": "assets/img/gallery/gallery-thula-11.jpg",
+        "alt": "THULA render study 11"
+      },
+      {
+        "size": "wide",
         "src": "assets/img/gallery/gallery-thula-7.jpg",
         "alt": "THULA render study 7"
       },
       {
-        "layout": "single",
-        "span": "half",
+        "size": "wide",
         "src": "assets/img/gallery/gallery-thula-19.jpg",
         "alt": "THULA render study 19"
       },
       {
-        "layout": "spread",
-        "images": [
-          {
-            "src": "assets/img/gallery/gallery-year1-bathroom.jpg",
-            "alt": "Year 1 bathroom visualisation"
-          },
-          {
-            "src": "assets/img/gallery/gallery-bookery.jpg",
-            "alt": "Bookery interior visualisation"
-          }
-        ]
+        "size": "full",
+        "src": "assets/img/gallery/gallery-year1-bathroom.jpg",
+        "alt": "Year 1 bathroom visualisation"
       },
       {
-        "layout": "single",
-        "span": "full",
+        "size": "wide",
+        "src": "assets/img/gallery/gallery-bookery.jpg",
+        "alt": "Bookery interior visualisation"
+      },
+      {
+        "size": "full",
         "src": "assets/img/gallery/gallery-heidi-uli.jpg",
         "alt": "Heidi and Uli Smidt interior render"
       },
       {
-        "layout": "spread",
-        "images": [
-          {
-            "src": "assets/img/gallery/gallery-fairways-kitchen.jpg",
-            "alt": "Fairways kitchen render"
-          },
-          {
-            "src": "assets/img/gallery/gallery-portfolio-arch.jpg",
-            "alt": "Portfolio arch visualisation"
-          }
-        ]
+        "size": "wide",
+        "src": "assets/img/gallery/gallery-fairways-kitchen.jpg",
+        "alt": "Fairways kitchen render"
       },
       {
-        "layout": "single",
-        "span": "half",
+        "size": "wide",
         "src": "assets/img/gallery/gallery-portfolio-bathroom.jpg",
         "alt": "Portfolio bathroom render"
       },
       {
-        "layout": "spread",
-        "images": [
-          {
-            "src": "assets/img/gallery/gallery-idpp-lobby.jpg",
-            "alt": "IDPP lobby visualisation"
-          },
-          {
-            "src": "assets/img/gallery/gallery-idpp-room.jpg",
-            "alt": "IDPP room visualisation"
-          }
-        ]
+        "size": "full",
+        "src": "assets/img/gallery/gallery-idpp-lobby.jpg",
+        "alt": "IDPP lobby visualisation"
+      },
+      {
+        "size": "wide",
+        "src": "assets/img/gallery/gallery-idpp-room.jpg",
+        "alt": "IDPP room visualisation"
       }
     ]
   },
