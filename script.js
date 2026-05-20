@@ -250,31 +250,39 @@ function renderWork() {
 }
 
 function galleryItemMarkup(item, index) {
-  const sizeClass = item.size ? `is-${item.size}` : "is-wide";
   return `
-    <figure class="gallery-item ${sizeClass} reveal">
-      <img src="${item.src}" alt="${item.alt}" loading="eager" decoding="async">
+    <figure class="gallery-item reveal">
+      <img src="${item.src}" alt="${item.alt}" loading="lazy" decoding="async">
     </figure>
   `;
 }
 
 function renderGallery() {
   const page = content.gallery;
+  const galleryItems = page.items || [];
   const items = (page.items || []).map(galleryItemMarkup).join("");
+  const hero = galleryItems[0];
 
   main.innerHTML = `
-    <section class="page-hero gallery-hero">
-      <div class="inner">
-        <div class="reveal">
+    <section class="gallery-viewer" data-gallery-viewer data-gallery-index="0">
+      <div class="gallery-stage">
+        <figure class="gallery-slide is-active">
+          <img data-gallery-image src="${hero?.src || ""}" alt="${hero?.alt || page.title}" loading="eager" decoding="async">
+        </figure>
+        <button class="gallery-nav-zone is-prev" type="button" data-gallery-prev aria-label="Previous image">
+          <span>Previous</span>
+        </button>
+        <button class="gallery-nav-zone is-next" type="button" data-gallery-next aria-label="Next image">
+          <span>Next</span>
+        </button>
+        <div class="gallery-viewer-meta">
           <p class="eyebrow">${page.eyebrow}</p>
-          <h1 class="page-title">${page.title}</h1>
+          <p data-gallery-counter>01 / ${String(galleryItems.length).padStart(2, "0")}</p>
         </div>
-        <div class="reveal">
-          <p class="lead">${page.lead}</p>
-        </div>
+        <button class="gallery-view-all" type="button" data-gallery-view-all>View all</button>
       </div>
     </section>
-    <section class="section gallery-section">
+    <section class="section gallery-section" data-gallery-grid hidden>
       <div class="inner">
         <div class="gallery-grid">
           ${items}
@@ -586,6 +594,7 @@ function route() {
     main.classList.remove("is-leaving");
     revealOnScroll();
     initHeroCarousel();
+    initGalleryViewer();
     hasRendered = true;
   }, delay);
 }
@@ -634,6 +643,52 @@ function initHeroCarousel() {
       setActive(index);
     });
   });
+}
+
+function initGalleryViewer() {
+  const viewer = document.querySelector("[data-gallery-viewer]");
+  if (!viewer) return;
+
+  const items = content.gallery?.items || [];
+  if (!items.length) return;
+
+  const image = viewer.querySelector("[data-gallery-image]");
+  const counter = viewer.querySelector("[data-gallery-counter]");
+  const grid = document.querySelector("[data-gallery-grid]");
+  const viewAll = viewer.querySelector("[data-gallery-view-all]");
+  const previous = viewer.querySelector("[data-gallery-prev]");
+  const next = viewer.querySelector("[data-gallery-next]");
+  let index = 0;
+
+  const setImage = (nextIndex) => {
+    index = (nextIndex + items.length) % items.length;
+    viewer.dataset.galleryIndex = String(index);
+    viewer.classList.add("is-transitioning");
+    window.setTimeout(() => {
+      image.src = items[index].src;
+      image.alt = items[index].alt;
+      counter.textContent = `${String(index + 1).padStart(2, "0")} / ${String(items.length).padStart(2, "0")}`;
+      viewer.classList.remove("is-transitioning");
+    }, 140);
+  };
+
+  previous.addEventListener("click", () => setImage(index - 1));
+  next.addEventListener("click", () => setImage(index + 1));
+  viewAll.addEventListener("click", () => {
+    const showingGrid = viewer.classList.toggle("is-grid-open");
+    grid.hidden = !showingGrid;
+    viewAll.textContent = showingGrid ? "View image" : "View all";
+    if (showingGrid) grid.scrollIntoView({ block: "start", behavior: "smooth" });
+    else viewer.scrollIntoView({ block: "start", behavior: "smooth" });
+  });
+
+  if (window.galleryKeyHandler) document.removeEventListener("keydown", window.galleryKeyHandler);
+  window.galleryKeyHandler = (event) => {
+    if (!document.querySelector("[data-gallery-viewer]")) return;
+    if (event.key === "ArrowLeft") setImage(index - 1);
+    if (event.key === "ArrowRight") setImage(index + 1);
+  };
+  document.addEventListener("keydown", window.galleryKeyHandler);
 }
 
 async function loadContent() {

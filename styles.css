@@ -2849,3 +2849,215 @@ figcaption,
     column-count: 1;
   }
 }
+
+/* Full-screen gallery viewer with quiet archive grid. */
+.gallery-viewer {
+  min-height: calc(100svh - 72px);
+  background: var(--paper);
+  transition: min-height 420ms ease, padding 420ms ease;
+}
+
+.gallery-stage {
+  position: relative;
+  height: calc(100svh - 72px);
+  min-height: 520px;
+  overflow: hidden;
+  background: #e3ded6;
+  transition: height 420ms ease, width 420ms ease, margin 420ms ease;
+}
+
+.gallery-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.94) contrast(0.98);
+  opacity: 1;
+  transition: opacity 260ms ease, transform 900ms ease;
+}
+
+.gallery-viewer.is-transitioning .gallery-slide img {
+  opacity: 0;
+  transform: scale(1.01);
+}
+
+.gallery-nav-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 50%;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+}
+
+.gallery-nav-zone.is-prev {
+  left: 0;
+}
+
+.gallery-nav-zone.is-next {
+  right: 0;
+}
+
+.gallery-nav-zone span {
+  position: absolute;
+  top: 50%;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.gallery-nav-zone.is-prev span {
+  left: var(--gutter);
+}
+
+.gallery-nav-zone.is-next span {
+  right: var(--gutter);
+}
+
+.gallery-nav-zone:hover span,
+.gallery-nav-zone:focus-visible span {
+  opacity: 1;
+}
+
+.gallery-nav-zone.is-prev:hover span,
+.gallery-nav-zone.is-prev:focus-visible span {
+  transform: translate(-6px, -50%);
+}
+
+.gallery-nav-zone.is-next:hover span,
+.gallery-nav-zone.is-next:focus-visible span {
+  transform: translate(6px, -50%);
+}
+
+.gallery-viewer-meta {
+  position: absolute;
+  left: var(--gutter);
+  bottom: clamp(24px, 3vw, 46px);
+  z-index: 3;
+  display: grid;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.72);
+  pointer-events: none;
+}
+
+.gallery-viewer-meta p {
+  margin: 0;
+  color: inherit;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.gallery-view-all {
+  position: absolute;
+  right: var(--gutter);
+  bottom: clamp(24px, 3vw, 46px);
+  z-index: 4;
+  min-height: 0;
+  padding: 0 0 4px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gallery-view-all:hover,
+.gallery-view-all:focus-visible {
+  color: #ffffff;
+  border-bottom-color: rgba(255, 255, 255, 0.78);
+  background: transparent;
+}
+
+.gallery-viewer.is-grid-open {
+  min-height: 0;
+  padding: clamp(38px, 5vw, 72px) var(--gutter) 0;
+}
+
+.gallery-viewer.is-grid-open .gallery-stage {
+  width: min(680px, 100%);
+  height: clamp(220px, 32vw, 420px);
+  min-height: 0;
+  margin: 0 auto;
+}
+
+.gallery-section[hidden] {
+  display: none;
+}
+
+.gallery-section {
+  padding-top: clamp(34px, 5vw, 72px);
+}
+
+.gallery-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(12px, 1.4vw, 22px);
+}
+
+.gallery-item,
+.gallery-item.is-wide,
+.gallery-item.is-standard,
+.gallery-item.is-full {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border: 0;
+  background: #e3ded6;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 980px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .gallery-viewer {
+    min-height: calc(100svh - 66px);
+  }
+
+  .gallery-stage {
+    height: calc(100svh - 66px);
+    min-height: 460px;
+  }
+
+  .gallery-viewer.is-grid-open {
+    padding-top: 22px;
+  }
+
+  .gallery-viewer.is-grid-open .gallery-stage {
+    height: 240px;
+  }
+
+  .gallery-nav-zone span {
+    opacity: 0.72;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
