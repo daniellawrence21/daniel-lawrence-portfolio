@@ -350,6 +350,9 @@ function renderAbout() {
     </section>
     <section class="section">
       <div class="inner about-layout">
+        <figure class="about-portrait reveal">
+          <img src="assets/img/daniel-lawrence-portrait.jpg" alt="Black-and-white portrait of Daniel Lawrence" loading="lazy" decoding="async">
+        </figure>
         <div class="copy-block reveal">
           <h2 class="split-title">${page.heading}</h2>
           ${paragraphs(page.paragraphs)}
@@ -461,6 +464,7 @@ function imageGrid(images = []) {
 
 function renderProject(slug) {
   const project = projectMap[slug] || projects[0];
+  const immersiveProjects = new Set(["third-tone-office", "ritual-bathhouse"]);
   const index = projects.findIndex((item) => item.slug === project.slug);
   const prev = projects[(index - 1 + projects.length) % projects.length];
   const next = projects[(index + 1) % projects.length];
@@ -471,7 +475,7 @@ function renderProject(slug) {
 
   main.innerHTML = `
     <article>
-      <section class="case-hero">
+      <section class="case-hero${immersiveProjects.has(project.slug) ? " is-immersive" : ""}">
         <div class="inner">
           <div class="case-hero-media reveal">
             <img src="${project.hero}" alt="${project.title}">
@@ -500,7 +504,7 @@ function renderProject(slug) {
           ${caseSection("Brief", `<p>${project.brief}</p>`)}
           ${caseSection("Concept", `<p>${project.concept}</p>${imageGrid(conceptImages)}`)}
           ${caseSection("Design Response", `<p>${project.response}</p>`)}
-          ${caseSection("Key Spatial Moves", `<ul class="case-list">${(project.moves || []).map(([title, copy]) => `<li><h3>${title}</h3><p>${copy}</p></li>`).join("")}</ul>`)}
+          ${caseSection("Key Spatial Moves", `<ul class="case-list">${(project.moves || []).map(([title, copy]) => `<li><h3>${title.toUpperCase()}</h3><p>${copy}</p></li>`).join("")}</ul>`)}
           ${caseSection("Material Direction", `<p>${project.material}</p>`)}
           ${caseSection("Technical Development", `<p>${project.technical}</p>${imageGrid(technicalImages)}`)}
           ${caseSection("Visualisation", `<p>${project.visualisation}</p>${imageGrid(visualImages)}`)}
@@ -518,11 +522,12 @@ function renderProject(slug) {
 }
 
 function caseSection(title, body) {
+  const copyClass = body.replace(/<[^>]*>/g, "").length > 360 ? "case-copy is-long-form" : "case-copy";
   return `
     <section class="case-section reveal">
       <div class="editorial-grid">
-        <h2>${title}</h2>
-        <div class="case-copy">${body}</div>
+        <h2>${title.toUpperCase()}</h2>
+        <div class="${copyClass}">${body}</div>
       </div>
     </section>
   `;
