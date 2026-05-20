@@ -76,8 +76,6 @@ function projectCard(project) {
           <span>${project.year}</span>
           <span>${project.context}</span>
         </div>
-        <p>${project.summary}</p>
-        ${tags(project.tags)}
       </div>
     </a>
   `;
